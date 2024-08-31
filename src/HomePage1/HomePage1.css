@@ -1,0 +1,60 @@
+/* Container holding the image */
+.video-container {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    width:1338px;
+    margin: auto;
+    border:2px solid #f4c36d;
+  }
+  
+  /* The play button icon */
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    color: #333;
+    transition: background-color 0.3s ease;
+    border: 2px solid #f4c36d;
+  }
+  
+  .play-button:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  /* The modal background */
+  .modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  /* The video inside the modal */
+  /* .modal-video {
+    
+              width: 100%;
+               height: 100%;
+                border: 'none';
+  } */
+  
+  /* Close button */
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+    /* color: white; */
+    cursor: pointer;
+  }
+  
